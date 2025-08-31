@@ -1,0 +1,39 @@
+  body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: 'Courier New', monospace;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ff6f91;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  img {
+    margin-top: 1rem;
+    width: 200px;
+    border-radius: 10px;
+  }
+   
