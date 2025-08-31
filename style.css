@@ -1,4 +1,4 @@
-  body {
+/*   body {
     background: linear-gradient(to right, #ff9a9e, #fad0c4);
     font-family: 'Courier New', monospace;
     color: #333;
@@ -36,4 +36,74 @@
     width: 200px;
     border-radius: 10px;
   }
-   
+
+    */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fecfef);
+  text-align: center;
+  padding: 15px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #e6005c;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  text-align: justify;
+  word-wrap: break-word; /* prevents cut text */
+}
+
+button {
+  padding: 12px 25px;
+  margin-top: 15px;
+  background: #e6005c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #cc0052;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  max-width: 100%;   /* responsive */
+  height: auto;      /* keeps ratio */
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Make sure text is readable on small devices */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
+}
